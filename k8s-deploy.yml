@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: agodzo/elasticpath:v3
+      image: agodzo/elasticpath:latest
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
